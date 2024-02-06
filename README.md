@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/hc4ucjiqi6kya2wr?svg=true)](https://ci.appveyor.com/project/iamgromov/ra-diploma)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-GO-green.svg)](https://iamgromov.github.io/ra-diploma)
+
 # Дипломный проект курса «React»
 
 Дипломный проект представляет собой интернет-магазин обуви. Задача заключается в создании работающего приложения, всеми основными функциями которого можно пользоваться.
