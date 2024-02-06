@@ -97,7 +97,7 @@ const fortune = (ctx, body = null, status = 200) => {
 
 Навигационным центром приложения являются шапка и футер каждого экрана (страницы):
 
-![Header](https://github.com/netology-code/ra16-diploma/raw/master/assets/footer-menu.png)
+![Header](https://github.com/netology-code/ra16-diploma/raw/master/assets/header-menu.png)
 
 ![Footer](https://github.com/netology-code/ra16-diploma/blob/master/assets/footer-menu.png)
 
