@@ -13,7 +13,7 @@ export const ErrorOrder: React.FunctionComponent<IErrorProps> = ({
   const closeError = () => {
     navigate(-1);
   };
-  
+
   return (
     <div className="error_container">
       <div className="error_content">

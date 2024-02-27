@@ -68,7 +68,7 @@ export const Order = () => {
       </div>
     );
   }
-  
+
   return (
     <section className="order">
       <h2 className="text-center">Оформить заказ</h2>

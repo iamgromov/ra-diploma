@@ -8,11 +8,11 @@ import { deleteItem } from "../../store/slicers/cartSlice";
 export const Cart: React.FunctionComponent = () => {
   const cart = useSelector((state: RootState) => state.cartState);
   const dispatch = useDispatch();
-  
+
   const deleteProduct = (article: number) => {
     dispatch(deleteItem(article));
   };
-  
+
   return (
     <section className="cart">
       <h2 className="text-center">Корзина</h2>

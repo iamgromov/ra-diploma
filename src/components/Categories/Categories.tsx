@@ -27,7 +27,7 @@ export const Categories: React.FunctionComponent = () => {
       return <ErrorLoad error={error.error} updateFetch={() => refetch()} />;
     }
   }
-  
+
   return (
     <ul className="catalog-categories nav justify-content-center">
       <li className="nav-item">

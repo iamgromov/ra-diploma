@@ -84,7 +84,7 @@ export const Catalog: React.FunctionComponent<{ inputStyle: string }> = ({
       );
     }
   }
-  
+
   return (
     <section className="catalog">
       <h2 className="text-center">Каталог</h2>

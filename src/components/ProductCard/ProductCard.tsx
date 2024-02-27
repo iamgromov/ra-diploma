@@ -60,7 +60,7 @@ export const ProductCard: React.FunctionComponent = () => {
       return <ErrorLoad error={error.error} updateFetch={() => refetch()} />;
     }
   }
-  
+
   return isLoading ? (
     <Preloader />
   ) : (

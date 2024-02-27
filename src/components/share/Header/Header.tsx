@@ -20,7 +20,7 @@ export const Header: React.FunctionComponent = () => {
       setLocalCart(JSON.parse(localStorage.cart));
     }
   }, [cart]);
-  
+
   useEffect(() => {
     if (localStorage.cart) {
       dispatch(updateStore(JSON.parse(localStorage.cart)));
