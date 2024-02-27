@@ -1,0 +1,36 @@
+.error_container {
+  position: absolute;
+  background-color: brown;
+  z-index: 100;
+  top: 50%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px brown solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.error_button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  width: 20%;
+}
+
+.error_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_text {
+  font-size: 20px;
+}
